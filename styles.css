@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+.logo img {
+  width: 150px;
+  height: auto; 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.user-actions a {
+  margin-left: 20px;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.Top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 235px;
+  width: 100%;
+  background-color: #e0ebe0;
+  padding: 0%;
+}
+
+.Top h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 2%;
+}
+
+.button-group .menu {
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.button-group .right-buttons {
+  display: flex;
+}
+
+.button-group .right-buttons .SCROLL-DOWN {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.button-group .right-buttons .download {
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.image {
+  background-color: white;
+  height: 300px;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image h2 {
+  padding: 10px;
+  font-size: 18px;
+}
